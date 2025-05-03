@@ -8,6 +8,7 @@ Template for a roadmap-project
 ## Soluciones hechas por la comunidad
 |Usuario|Repositorio| Documentación |
 |-------|-----------|---------|
+| <a href="https://github.com/mendodevv">mendodevv</a> |<a href="https://github.com/mendodevv/Blogging-Platform-API/tree/mendodev-solution">Repositorio</a> | N/A |
 | <a href="https://github.com/EGAMAGZ">EGAMAGZ</a> |<a href="https://github.com/EGAMAGZ/Blogging-Platform-API">Repositorio</a> | N/A |
 
 # Mi solución
@@ -49,12 +50,13 @@ La segunda es la tabla de los tags, la cual contiene:
 - ID del post/posts a los que está asociado el tag
 
 ## Funcionamiento de la aplicación
+[![Video demostración de la aplicación](https://img.youtube.com/vi/CQE7RlBBAaI/0.jpg)](https://www.youtube.com/watch?v=CQE7RlBBAaI)
 ## Como hacer funcionar la aplicación?
 Para poder correr esta aplicación, deberás contar con un IDE para Java (De preferencia IntelliJ) y Java 21 instalado.
 1. Clona el repositorio en tu PC
 2. Crear una base de datos en MySql (El nombre queda a tu elección)
 3. Configura las credenciales de la base de datos en el archivo ```application.properties```
-     - En IntelliJ, ve a Run -> Edit Configurations -> Environment Variables
+     - En IntelliJ, ve a Run -> Edit Configurations -> Modify Options -> Environment Variables
      - Ya ahí, agrega las variables del ```application.properties``` (DB_NAME, DB_USERNAME y DB_URL) y para su valor, pon los de tu base de datos
 4. Una vez agregadas las variables de entorno, corre la aplicación
 5. Para poder probar los endpoints, entra a ```http://localhost:8080/swagger-ui/index.html#/```
